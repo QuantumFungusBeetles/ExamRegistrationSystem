@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Exam Registration</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <script src="scripts/exam-registration.js"></script>
+</head>
+<body>
+  <div class="page-wrapper">
+    <header class="header">
+      <img src="images/CSNLogo.png" alt="CSN Logo" class="logo"/>
+      <h1>Exam Registration System</h1>
+    </header>
+
+    <main class="registration-form">
+      <h2>Exam Registration Page</h2>
+
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" disabled />
+
+        <label for="nshe">NSHE ID:</label>
+        <input type="text" id="nshe" disabled />
+
+        <label for="email">Student Email:</label>
+        <input type="email" id="email" disabled />
+
+        <label for="campus">Campus:</label>
+        <select id="campus">
+          <option>West Charleston</option>
+          <option>North Las Vegas</option>
+          <option>Henderson</option>
+        </select>
+
+        <label for="exam">Exam:</label>
+        <select id="exam">
+          <option>Networking+</option>
+          <option>Security+</option>
+          <option>A+</option>
+        </select>
+
+        <label for="date">Date:</label>
+        <select id="date">
+          <option>4/8/2025</option>
+          <option>4/10/2025</option>
+          <option>4/12/2025</option>
+        </select>
+
+        <label for="time">Time:</label>
+        <select id="time">
+          <option>9:00am</option>
+          <option>1:00pm</option>
+          <option>3:00pm</option>
+        </select>
+
+        <label for="proctor">Proctor:</label>
+        <select id="proctor">
+          <option>Teacher McTeacherFace</option>
+          <option>Mr. Snake</option>
+          <option>Professor Void</option>
+        </select>
+
+        <p class="seat-warning">XX seats remaining for this test – Register now!</p>
+
+        <button type="submit" class="btn">Submit Registration</button>
+        <a href="student-dashboard.html" class="btn logout">Back to Dashboard</a>
+      </form>
+    </main>
+  </div>
+</body>
+</html>
