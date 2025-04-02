@@ -43,12 +43,11 @@ A mock frontend prototype for a dynamic, role-based Exam Registration System des
 
 | Screen | Image |
 |--------|-------|
-| Login Page | ![Login Wireframe](images/wireframe-login.png) |
-| Student Dashboard | ![Student Dashboard](images/wireframe-student-dashboard.png) |
-| Exam Registration Page | ![Exam Registration](images/wireframe-exam-registration.png) |
-| Faculty Dashboard | ![Faculty Dashboard](images/wireframe-faculty-dashboard.png) |
+| UI Overview | ![UI Wireframe](Wireframes/UI%20Wireframe.png) |
+| Workflow Diagram | ![Workflow Wireframe](Wireframes/Workflow%20Wireframe.png) |
+| Functional Flow | ![Functional Wireframe](Wireframes/Functional%20Wireframe.png) |
+| Demo Accounts | ![Dummy Accounts](Wireframes/Dummy%20Accounts%20for%20Sprint%201%20Demo.png) |
 
-> 💡 Make sure you add these images to `/images/` in the repo!
 
 ---
 
@@ -90,6 +89,9 @@ This is a **Sprint 1 prototype** designed to fulfill the core user stories and a
 ## 👑 Project Roles
 
 Daverlie Ordiway - Product Owner
+
 Jayden Gude - Scrum Master
+
 Renka Kanetake - QA
+
 Pax Montoro - Dev
