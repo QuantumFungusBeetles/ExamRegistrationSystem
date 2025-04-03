@@ -66,8 +66,7 @@ A mock frontend prototype for a dynamic, role-based Exam Registration System des
 ## 🌐 Live Demo
 
 Hosted via GitHub Pages:  
-👉 [Click to launch ERS](https://your-org.github.io/your-repo-name/)  
-(Replace with actual link after Pages setup)
+👉 [Click to launch ERS](https://quantumfungusbeetles.github.io/ExamRegistrationSystem/index.html)  
 
 ---
 
